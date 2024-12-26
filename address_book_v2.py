@@ -147,7 +147,7 @@ def show_birthday(args, book):
     return "No birthday found for this contact."
 
 @input_error
-def show_all_contacts(book):
+def show_all_contacts(_, book):
     if not book.data:
         return "No contacts found."
     return str(book)

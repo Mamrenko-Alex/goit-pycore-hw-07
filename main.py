@@ -1,4 +1,6 @@
 from utils import parse_input
+from models import AddressBook
+from handlers import greet, add_birthday, add_contact, show_all_contacts, show_birthday, show_phone, show_upcoming_birthdays, change_contact
 
 def main():
     book = AddressBook()
